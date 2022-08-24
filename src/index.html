@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://quantisland.com/assets/favicon_package/favicon.ico"
+      type="image/x-icon"
+    />
+    <script defer src="/script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("qunPZz6UPsAhTihEs");
+      })();
+    </script>
+    <title>Quant Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img src="./image/logo.svg" alt="logo" class="logo" />
+      </a>
+      <svg
+        class="menu"
+        width="32"
+        height="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="#151515" fill-rule="evenodd">
+          <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z" />
+        </g>
+      </svg>
+      <nav>
+        <svg
+          class="close-nav"
+          width="26"
+          height="26"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill="#151515" fill-rule="evenodd">
+            <path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z" />
+            <path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z" />
+          </g>
+        </svg>
+        <a href="#home" class="nav-link">home</a>
+        <a href="#services" class="nav-link">services</a>
+        <a href="#testimonial-wrapper" class="nav-link">testomonial</a>
+        <a href="#faq" class="nav-link">faq</a>
+        <a href="#about-us" class="nav-link">about us</a>
+        <a href="#contact-us" class="nav-link">contact us</a>
+      </nav>
+    </header>
+    <section class="main" id="home">
+      <div class="content-container">
+        <div class="content">
+          <h1 class="heading">
+            <span class="heading-primary"
+              >Drive Business Growth By Making Informed
+            </span>
+            <span class="heading-secondary"
+              >Decisions With Quantitative Data.
+            </span>
+          </h1>
+          <h3 class="sub-heading">
+            Make informed decisions for the future using our proven quantitative
+            methodology.
+          </h3>
+        </div>
+        <a href="#contact-us">
+          <button class="btn">get a free consultation</button>
+        </a>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="service-wrapper">
+        <div class="service-content-container">
+          <div class="service-heading">
+            <h3 class="service-title">
+              Get Clarity On The Financial Health Of The Companies You’re
+              Investing In And Avoid Huge Losses
+            </h3>
+          </div>
+          <p class="service-desc">
+            Quant Island helps venture capitalists better gauge the value of a
+            startup before investing. Our financial analysts, engineers, and
+            data scientists team has made specialised models that do due
+            diligence. Minimize your risk exposure
+          </p>
+
+          <a href="#contact-us">
+            <button class="btn btn-service">get a free consultation</button>
+          </a>
+        </div>
+        <div class="service-img-container">
+          <img
+            src="./image/startup-img.png"
+            alt="image"
+            class="service-img"
+            loading="lazy"
+          />
+          <img src="./image/Vector.svg" alt="" class="red-svg" />
+        </div>
+      </div>
+
+      <div class="service-wrapper">
+        <div class="service-content-container">
+          <div class="service-heading">
+            <h3 class="service-title">
+              Enjoy Peace of Mind By Monitoring The Accuracy of Your Machine
+              Learning Models
+            </h3>
+          </div>
+          <p class="service-desc">
+            We help you deploy your machine learning models for high-precision
+            results. We validate models built with traditional quantitative
+            methods and models based on machine learning. And we also test smart
+            contract models.
+          </p>
+          <a href="#contact-us">
+            <button class="btn btn-service">get a free consultation</button>
+          </a>
+        </div>
+        <div class="service-img-container">
+          <img
+            src="./image/machine-img.png"
+            alt="image"
+            class="service-img"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <div class="service-wrapper">
+        <div class="service-content-container">
+          <div class="service-heading">
+            <h3 class="service-title">
+              Gain An Edge By Launching Your Crypto Project On The Appropriate
+              Blockchain
+            </h3>
+          </div>
+          <p class="service-desc">
+            We ensure our clients launch their projects on the right
+            blockchain(s). This is done by looking at tokenomics, giving people
+            access to quantitative vulnerabilities, and checking smart
+            contracts. We also give professional advice on choosing the
+            blockchain platform and making sure it is right for the project.
+          </p>
+          <a href="#contact-us">
+            <button class="btn btn-service">get a free consultation</button>
+          </a>
+        </div>
+        <div class="service-img-container">
+          <img
+            src="./image/crypto-img.png"
+            alt="image"
+            class="service-img"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="testimonial-wrapper" id="testimonial-wrapper">
+      <div class="partners">
+        <img src="./image/10,000+.svg" alt="" class="partner-logo" />
+        <h3 class="partner-heading">
+          Startups, venture capitalists, and businesses chose Quant Island.
+        </h3>
+        <div class="partner-img-container">
+          <img src="./image/partner-1.svg" alt="" class="partner-img" />
+          <img src="./image/partner-2.svg" alt="" class="partner-img" />
+          <img src="./image/partner-3.svg" alt="" class="partner-img" />
+          <img src="./image/partner-4.svg" alt="" class="partner-img" />
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              The Quant Island team's expertise with our quantitative AI models
+              has been phenomenal. Our firm broke even in the first business
+              year through its professional assessment and due diligence.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="image/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">Enterpreneur</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Dr Marco and his team were instrumental in our fintech project's
+              success. We hope to work with them again soon because it was clear
+              they knew a lot about quantitative analytics.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="image/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">Director, Udu Ex</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The Quant Island team are amazing
+            </h5>
+            <blockquote class="testimonial__text">
+              The Quant Island team guided us through the teething phase of our
+              business. They provided us assistance through their quantitative
+              methods and modern AI techniques. They are simply amazing, and
+              their service is excellent
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="image/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Founder</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Quant island is a big advantage to our organisation
+            </h5>
+            <blockquote class="testimonial__text">
+              The team at Quant Island has added a lot of value to our project
+              by helping us grow through different stages with their world-class
+              quantitative analytics and risk assessment software
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="image/Ellipse 1 (3).png"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Joel Pascua</h6>
+              <p class="testimonial__location">Sales Executive</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Quant island finds solutions to problems.
+            </h5>
+            <blockquote class="testimonial__text">
+              It's great to offer professional quantitative analysis to
+              startups, find solutions to problems we might face, and walk with
+              us until our dream turns into a growing business worth hundreds of
+              thousands of dollars.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="image/Ellipse 1 (1).png"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Eddie Huynh</h6>
+              <p class="testimonial__location">Executive, Vamo</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+
+      <!-- how it works -->
+
+      <section class="walkthrough">
+        <h2 class="walkthrough-heading">Here’s How It Works.</h2>
+        <div class="walkthrough-step-wrapper">
+          <div class="walkthrough-container">
+            <div class="walkthrough-title-container">
+              <h2 class="walkthrough-number">1</h2>
+              <h3 class="walkthrough-title">
+                Schedule A Free Consultation Session.
+              </h3>
+            </div>
+            <p class="walkthrough-content">
+              Sign up for a 15-minute complimentary call with our Chief
+              Quantitative Analyst to share more information about your project.
+            </p>
+          </div>
+
+          <div class="walkthrough-container">
+            <div class="walkthrough-title-container">
+              <h2 class="walkthrough-number">2</h2>
+              <h3 class="walkthrough-title">
+                Due Diligence/Quantitative Investigation
+              </h3>
+            </div>
+            <p class="walkthrough-content">
+              We perform a detailed, independent quantitative audit to help you
+              better understand the financial state of your business.
+            </p>
+          </div>
+
+          <div class="walkthrough-container">
+            <div class="walkthrough-title-container">
+              <h2 class="walkthrough-number">3</h2>
+              <h3 class="walkthrough-title">Make Revenue Driving Decisions.</h3>
+            </div>
+            <p class="walkthrough-content">
+              You will receive detailed reports on important issues that must be
+              addressed and critical problems that must be resolved immediately.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <h2 class="faq-heading">FREQUENTLY ASKED QUESTIONS</h2>
+
+      <div class="faq-content-wrapper">
+        <div class="faq-title-container">
+          <h4 class="faq-content-title">What Is Quantitative Due Diligence?</h4>
+          <img src="./image/arrow.svg" alt="" class="faq-icon" />
+        </div>
+        <div class="faq-content-container">
+          <p class="faq-content">
+            This process is the independent and voluntary way to determine how
+            well a company, usually a startup, is doing in terms of numbers
+            (finances). The full name of the service is quantitative
+            investigation done with due care.
+          </p>
+        </div>
+      </div>
+      <div class="faq-content-wrapper">
+        <div class="faq-title-container">
+          <h4 class="faq-content-title">
+            What Are The Main Areas Of The Assessment?
+          </h4>
+          <img src="./image/arrow.svg" alt="" class="faq-icon" />
+        </div>
+        <div class="faq-content-container">
+          <p class="faq-content">
+            1. Revision of the company's quantitative models
+          </p>
+          <p class="faq-content">
+            2. Revision of the data pipeline that transforms model inputs into
+            outputs. This includes data cleansing, the detection of outliers,
+            preprocessing, model training, and evaluation.
+          </p>
+          <p class="faq-content">
+            3. Evaluation of the creation or implementation of new or existing
+            models from the prototype to the production phase.
+          </p>
+          <p class="faq-content">
+            4. Considering how market volatility affects the revenue and
+            performance of the company. The company may perform well during bull
+            markets but poorly during bear markets.
+          </p>
+          <p class="faq-content">
+            5. Meet with the research and development team to determine what
+            human resources are lacking, how to improve team dynamics, and what
+            quantitative training may benefit the group. Interview new
+            candidates of the highest calibre for key quantitative roles.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-content-wrapper">
+        <div class="faq-title-container">
+          <h4 class="faq-content-title">
+            What Are The Extra Steps For Web3/Crypto Companies?
+          </h4>
+          <img src="./image/arrow.svg" alt="" class="faq-icon" />
+        </div>
+        <div class="faq-content-container">
+          <p class="faq-content faq-sub-heading">
+            For cryptocurrency firms, due diligence extends to tokens and/or
+            smart contracts.
+          </p>
+          <p class="faq-content">
+            1. Evaluate tokenomics, i.e., the relationship between the company
+            token and blockchain smart contracts, the market, and token holders
+          </p>
+          <p class="faq-content">
+            2. Specify which blockchains the token should be launched on,
+            mirrored, or proxied on both the first and second layers.
+          </p>
+          <p class="faq-content">
+            3. Assist in optimizing the time-to-market for token operations such
+            as direct token sales, auctions, etc.
+          </p>
+          <p class="faq-content">
+            4. Evaluate and research whether the use of non-fungible tokens
+            (NFTs) can add value to the company/users/investors.
+          </p>
+          <p class="faq-content">
+            5. Provide a quick quantitative evaluation of the current and
+            expected token value when possible.
+          </p>
+          <p class="faq-content">
+            6. Assist the team in discovering and improving the token's utility
+            to increase its value.
+          </p>
+          <p class="faq-content">
+            7. Conduct a quantitative audit of the most significant smart
+            contracts to comprehend and estimate the potential risks and
+            benefits. Note that this is distinct from a security audit.
+          </p>
+          <p class="faq-content">
+            8. Examine the company's ICO on both centralised and decentralised
+            exchanges.
+          </p>
+          <p class="faq-content">
+            9. Consider novel approaches for enhancing tokenomics, such as
+            offering to stake or quoting on an automated-market maker (in which
+            case, which one to choose).
+          </p>
+          <p class="faq-content">
+            10. Evaluate the effect of using oracles (whether implicit or
+            explicit) on smart contracts. Assess the quantitative
+            vulnerabilities, such as arbitrage attacks, in which an adversary
+            can slowly deplete a smart contract of its tokens. (It should be
+            noted that these attacks are typically undetected by a security
+            audit.) Investigate what catastrophic scenarios could abruptly
+            reduce the company's value (for instance, Luna/UST had numerous
+            vulnerabilities) and estimate their likelihood.
+          </p>
+        </div>
+      </div>
+      <div class="faq-content-wrapper">
+        <div class="faq-title-container">
+          <h4 class="faq-content-title">
+            What Are The Proposed Areas Of Improvement?
+          </h4>
+          <img src="./image/arrow.svg" alt="" class="faq-icon" />
+        </div>
+        <div class="faq-content-container">
+          <p class="faq-content">
+            1. Determine whether the business would benefit from additional
+            mathematical or statistical methods.
+          </p>
+
+          <p class="faq-content">
+            2. Evaluate whether the employed machine learning and artificial
+            intelligence techniques are adequate or can be enhanced in terms of
+            cost, speed, and precision.
+          </p>
+          <p class="faq-content">
+            3. Indicate whether/how the current research/development workflow
+            can be streamlined to improve efficiency.
+          </p>
+          <p class="faq-content">
+            4. Consider what types of additional human resources could increase
+            the value of the business.
+          </p>
+          <p class="faq-content">
+            5. If applicable, suggest strategies for mitigating the effect of
+            market volatility on the company's value.
+          </p>
+        </div>
+      </div>
+      <div class="faq-content-wrapper">
+        <div class="faq-title-container">
+          <h4 class="faq-content-title">What Is Excluded From The Process?</h4>
+          <img src="./image/arrow.svg" alt="" class="faq-icon" />
+        </div>
+        <div class="faq-content-container">
+          <p class="faq-content faq-sub-heading">
+            To avoid confusion, the quantitative due diligence procedure does
+            not perform the following:
+          </p>
+          <p class="faq-content">1. Financial audit.</p>
+          <p class="faq-content">2. Management audit.</p>
+          <p class="faq-content">3. A complete security audit</p>
+        </div>
+      </div>
+      <div class="faq-content-wrapper">
+        <div class="faq-title-container">
+          <h4 class="faq-content-title">
+            What Documents Are Obtained Through The Due Diligence Process?
+          </h4>
+          <img src="./image/arrow.svg" alt="" class="faq-icon" />
+        </div>
+        <div class="faq-content-container">
+          <p class="faq-content faq-sub-heading">
+            The results of the quantitative due diligence are contained in two
+            documents, one of which is restricted to those who requested it and
+            the other of which is accessible to the general public.
+          </p>
+          <p class="faq-content faq-sub-heading">
+            Typically, the private report contains the complete audit details:
+          </p>
+          <p class="faq-content">
+            1. A comprehensive analysis of each of the preceding points
+          </p>
+
+          <p class="faq-content">
+            2. The critical problems that must be resolved immediatelyl
+          </p>
+          <p class="faq-content">
+            3. The significant but non-urgent matters that require full
+            attention
+          </p>
+          <p class="faq-content">
+            4. Other suggestions that can enhance the value of the company The
+            public report is typically shorter and consists of a summary of the
+            findings, omitting specifics.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="about-us-heading-container">
+        <h2 class="about-us-heading">Who We are</h2>
+
+        <div class="about-us-desc-container">
+          <p class="about-us-desc">
+            We are a quantitative consulting firm aimed at providing
+            quantitative-finance expertise to companies. We focus on data
+            science in financial technology (fintech) and blockchain projects
+            and their connection with the traditional financial world. We also
+            cover more traditional areas, such as developing new models for
+            pricing functions, risk analytics, and performance measurement
+            tools.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-us-values">
+        <h2 class="value-heading">Our Values</h2>
+
+        <p class="value-sub-heading">
+          We are a client-first company. We provide assistance with quantitative
+          methods, modern AI techniques, and web3 technologies.
+        </p>
+
+        <div class="values-wrapper">
+          <div class="value-container">
+            <img src="/image/icon-online.svg" alt="" class="value-icon" />
+            <h3 class="value-title">Venture Capitalists</h3>
+            <div class="value-content-container">
+              <p class="value-content">
+                Before the financing round, we provide an unbiased quantitative
+                due diligence process to assess a startup's worth. We also
+                estimate the company's tokens. We modify both the tokenomics and
+                the smart contracts for web3/blockchain companies.
+              </p>
+            </div>
+          </div>
+
+          <div class="value-container">
+            <img src="/image/icon-api.svg" alt="" class="value-icon" />
+            <h3 class="value-title">Estabilshed companies</h3>
+            <div class="value-content-container">
+              <p class="value-content">
+                We offer model validation and smart contract auditing. We are in
+                a unique position to predict the next big thing because we
+                predicted th rise of DeFi in 2013. Additionally, we can assist
+                with the quantitative and software aspects of setting up unique
+                risk-management systems.
+              </p>
+            </div>
+          </div>
+          <div class="value-container">
+            <img src="/image/icon-online.svg" alt="" class="value-icon" />
+            <h3 class="value-title">Startups</h3>
+            <div class="value-content-container">
+              <p class="value-content">
+                We assist eager new businesses in accelerating their growth. We
+                assist in establishing or revising the process of creating and
+                deploying quantitative models from the prototype stage to the
+                production environment. We help web3 startups build smart
+                contracts and sustainable tokenomics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="founders">
+        <h3 class="founders-heading">meet our founders</h3>
+        <div class="founder-wrapper">
+          <div class="founder-container">
+            <div class="founder-img-container">
+              <img src="./image//founder1.png" alt="" class="founder-img" />
+            </div>
+            <h4 class="founder-name">Marco Marchioro, Ph.D,</h4>
+            <p class="founder-sub-name">Chief Quantitative Analyst</p>
+          </div>
+          <div class="founder-container">
+            <div class="founder-img-container">
+              <img src="./image//founder2.png" alt="" class="founder-img" />
+            </div>
+            <h4 class="founder-name">Cesare Tagliaferri</h4>
+            <p class="founder-sub-name">External Technical Advisor</p>
+          </div>
+          <div class="founder-container">
+            <div class="founder-img-container">
+              <img src="./image//founder3.png" alt="" class="founder-img" />
+            </div>
+            <h4 class="founder-name">Jacopo Quaglia</h4>
+            <p class="founder-sub-name">External Networking Advisor</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="contact-us" id="contact-us">
+      <h2 class="contact-us-heading">Free 15-Minutes Consultation Session</h2>
+      <div class="subheading-wrapper">
+        <p class="contact-us-subheading">
+          Enjoy Peace Of Mind With Our Industry Leading Quantitative Methodology
+        </p>
+      </div>
+      <div class="form">
+        <div class="form-box">
+          <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            placeholder="Company Name"
+          />
+        </div>
+        <div class="form-box">
+          <input
+            id="email"
+            name="email"
+            type="text"
+            required
+            placeholder="Email"
+          />
+        </div>
+
+        <button onclick="sendMail()" class="btn-form">get started</button>
+        <div class="message">
+          <div class="success" id="success">
+            your message successfully sent!
+          </div>
+          <div class="danger" id="danger">fields can't be empty</div>
+          <div class="loading" id="loading">plase wait...</div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#top" class="to-top">
+      <img src="./image/arrow-up.svg" alt="" class="back-to-top-icon"
+    /></a>
+
+    <section class="footer">
+      <div class="footer-wrapper">
+        <ul class="social-icon">
+          <a
+            href="https://www.linkedin.com/in/marchioro/
+"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="icon"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+            >
+              <title>linkedin</title>
+              <path
+                d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://twitter.com/marchioro_marco
+"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="icon"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+            >
+              <title>twitter</title>
+              <path
+                d="M17.316 6.246c0.008 0.162 0.011 0.326 0.011 0.488 0 4.99-3.797 10.742-10.74 10.742-2.133 0-4.116-0.625-5.787-1.697 0.296 0.035 0.596 0.053 0.9 0.053 1.77 0 3.397-0.604 4.688-1.615-1.651-0.031-3.046-1.121-3.526-2.621 0.23 0.043 0.467 0.066 0.71 0.066 0.345 0 0.679-0.045 0.995-0.131-1.727-0.348-3.028-1.873-3.028-3.703 0-0.016 0-0.031 0-0.047 0.509 0.283 1.092 0.453 1.71 0.473-1.013-0.678-1.68-1.832-1.68-3.143 0-0.691 0.186-1.34 0.512-1.898 1.861 2.285 4.644 3.787 7.781 3.945-0.064-0.277-0.097-0.564-0.097-0.861 0-2.084 1.689-3.773 3.774-3.773 1.086 0 2.067 0.457 2.756 1.191 0.859-0.17 1.667-0.484 2.397-0.916-0.282 0.881-0.881 1.621-1.66 2.088 0.764-0.092 1.49-0.293 2.168-0.594-0.506 0.758-1.146 1.422-1.884 1.953z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://calendly.com/quantisland
+"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="icon"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+            >
+              <title>calendar</title>
+              <path
+                d="M27 31h-22c-1.104 0-2-0.896-2-2v-22c0-1.105 0.896-2 2-2h2v1c0 1.657 1.343 3 3 3s3-1.343 3-3v-1h6v1c0 1.657 1.344 3 3 3s3-1.343 3-3v-1h2c1.104 0 2 0.895 2 2v22c0 1.104-0.896 2-2 2zM27 12h-22v17h22v-17zM10 17h-3v-3h3v3zM10 22h-3v-3h3v3zM10 27h-3v-3h3v3zM15 17h-3v-3h3v3zM15 22h-3v-3h3v3zM15 27h-3v-3h3v3zM20 17h-3v-3h3v3zM20 22h-3v-3h3v3zM20 27h-3v-3h3v3zM25 17h-3v-3h3v3zM25 22h-3v-3h3v3zM25 27h-3v-3h3v3zM21.969 8c-1.088 0-1.969-0.882-1.969-1.969v-2.062c0-1.088 0.881-1.969 1.969-1.969s1.969 0.881 1.969 1.969v2.062c0 1.087-0.881 1.969-1.969 1.969zM9.969 8c-1.088 0-1.969-0.882-1.969-1.969v-2.062c0-1.088 0.881-1.969 1.969-1.969s1.969 0.881 1.969 1.969v2.062c0 1.087-0.882 1.969-1.969 1.969z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://medium.com/@quantisland
+"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="icon"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+            >
+              <title>medium</title>
+              <path
+                d="M0 0v32h32v-32zM26.584 7.581l-1.716 1.645c-0.121 0.092-0.198 0.237-0.198 0.399 0 0.030 0.003 0.059 0.007 0.087l-0-0.003v12.089c-0.004 0.025-0.007 0.053-0.007 0.083 0 0.162 0.077 0.306 0.196 0.398l0.001 0.001 1.676 1.645v0.361h-8.429v-0.36l1.736-1.687c0.171-0.171 0.171-0.22 0.171-0.48v-9.773l-4.827 12.26h-0.653l-5.621-12.26v8.217c-0.007 0.046-0.010 0.099-0.010 0.152 0 0.307 0.122 0.586 0.321 0.791l-0-0 2.259 2.739v0.361h-6.403v-0.36l2.26-2.74c0.189-0.196 0.306-0.464 0.306-0.759 0-0.065-0.006-0.129-0.017-0.19l0.001 0.007v-9.501c0.003-0.025 0.004-0.055 0.004-0.085 0-0.245-0.106-0.465-0.274-0.617l-0.001-0.001-2.008-2.419v-0.36h6.232l4.817 10.564 4.235-10.565h5.941z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://discordapp.com/users/quantisland#1903"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              class="icon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <title>Logo Discord</title>
+              <path
+                d="M464 66.52A50 50 0 00414.12 17L97.64 16A49.65 49.65 0 0048 65.52V392c0 27.3 22.28 48 49.64 48H368l-13-44 109 100zM324.65 329.81s-8.72-10.39-16-19.32C340.39 301.55 352.5 282 352.5 282a139 139 0 01-27.85 14.25 173.31 173.31 0 01-35.11 10.39 170.05 170.05 0 01-62.72-.24 184.45 184.45 0 01-35.59-10.4 141.46 141.46 0 01-17.68-8.21c-.73-.48-1.45-.72-2.18-1.21-.49-.24-.73-.48-1-.48-4.36-2.42-6.78-4.11-6.78-4.11s11.62 19.09 42.38 28.26c-7.27 9.18-16.23 19.81-16.23 19.81-53.51-1.69-73.85-36.47-73.85-36.47 0-77.06 34.87-139.62 34.87-139.62 34.87-25.85 67.8-25.12 67.8-25.12l2.42 2.9c-43.59 12.32-63.44 31.4-63.44 31.4s5.32-2.9 14.28-6.77c25.91-11.35 46.5-14.25 55-15.21a24 24 0 014.12-.49 205.62 205.62 0 0148.91-.48 201.62 201.62 0 0172.89 22.95s-19.13-18.15-60.3-30.45l3.39-3.86s33.17-.73 67.81 25.16c0 0 34.87 62.56 34.87 139.62 0-.28-20.35 34.5-73.86 36.19z"
+              />
+              <path
+                d="M212.05 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.8 0 24.7-11.83 24.7-26.57.25-14.76-10.9-26.57-24.7-26.57zM300.43 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.81 0 24.7-11.83 24.7-26.57S314 218 300.43 218z"
+              />
+            </svg>
+          </a>
+        </ul>
+
+        <ul class="footer-nav">
+          <a href="#home">home</a>
+          <a href="#services">services</a>
+          <a href="#testimonial-wrapper">testimonials</a>
+          <a href="#about-us">about us</a>
+          <a href="#contact-us">contact us</a>
+        </ul>
+        <p class="footer-legal-text">Copyright © Quant Island 2022</p>
+      </div>
+    </section>
+  </body>
+</html>
